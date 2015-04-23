@@ -1,5 +1,5 @@
 logs/*
-dist
+app
 !.gitkeep
 node_modules/
 tmp
