@@ -6,7 +6,12 @@
 - Gulp 
 - Browserify
 
-#### Install
+#### Install (Development)
 
-    npm install && bower install
-    gulp
+    $ npm install && bower install
+    $ gulp
+
+#### Install (Production)
+
+    $ npm install && bower install
+    $ gulp clean && gulp build
