@@ -5,3 +5,8 @@
 - Bower 
 - Gulp 
 - Browserify
+
+#### Install
+
+    npm install && bower install
+    gulp
