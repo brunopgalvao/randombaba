@@ -13,7 +13,11 @@
     '$locationProvider',
     '$routeProvider',
     function($locationProvider, $routeProvider) {
-      $locationProvider.hashPrefix('!');
+      $locationProvider.html5Mode({
+        enabled: true,
+        requireBase: false
+      });
+      //$locationProvider.hashPrefix('!');
       // routes
       $routeProvider
         .when("/", {
@@ -24,6 +28,7 @@
            redirectTo: '/'
         });
     }
+    //$locationProvider.html5Mode(true);
   ])
 
   //Load controller
